@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "jsx": "react-jsx",
+    "types": [],
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+     "outDir": "./dist",      // <-- change this to an output folder outside src
+    "rootDir": "./src", 
+  },
+   "include": ["src/**/*", "../comman/src/validations"]
+}

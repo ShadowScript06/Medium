@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .input-box{
+    border: 1px solid  rgb(203, 202, 202);
+    border-radius: 5px;
+    width:100%;
+    padding: 5px;
+  }
+   .input-box:hover {
+    border-color: #343235; /* purple */
+  }
+
+  .input-box:focus {
+    border-color: #805ad5; /* brighter purple */
+    box-shadow: 0 0 5px rgba(118, 113, 129, 0.6);
+  }
+}
